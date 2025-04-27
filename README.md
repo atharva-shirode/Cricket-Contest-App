@@ -78,5 +78,7 @@ The application uses an SQLite database (`users.db`). The database file will be 
 ## Project Structure
 
 ├── main.py # Main FastAPI or Entry Point
+
 ├── schemas.py # The api schema and pydantic validation
+
 ├── database.py # The database table classes for sqlalchemy orm
