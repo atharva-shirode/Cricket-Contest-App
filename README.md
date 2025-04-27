@@ -55,7 +55,7 @@ The application uses an SQLite database (`users.db`). The database file will be 
 1.  Run the application using Uvicorn:
 
     ```bash
-   uvicorn main:app --reload
+     uvicorn main:app --reload
     ```
 
     This will start the server at `http://localhost:8000`.
