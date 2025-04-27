@@ -59,6 +59,10 @@ The application uses an SQLite database (`users.db`). The database file will be 
     ```
 
     This will start the server at `http://localhost:8000`.
+2. Add /docs to the above mentioned URL to utilize the Swagger UI and openapi documentation provided by fast_api and test the apis accordingly.
+   ```bash
+   http://localhost:8000/docs
+   ```
 
 ## API Endpoints
 
